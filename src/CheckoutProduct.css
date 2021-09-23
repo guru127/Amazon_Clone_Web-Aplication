@@ -1,0 +1,32 @@
+.checkouProduct {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkouProduct_image {
+  height: 180px;
+  width: 180px;
+  max-width: 200px;
+  object-fit: contain;
+}
+.checkoutProduct_info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+.checkouProduct_product_price {
+  margin-top: 5px;
+}
+.checkouProduct_product_rating {
+  display: flex;
+}
+.checkoutProduct_info > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: black;
+  color: black;
+}
+.checkouProduct_product_title {
+  font-size: 17px;
+  font-weight: 700;
+}

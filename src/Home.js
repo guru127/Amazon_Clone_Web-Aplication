@@ -9,6 +9,7 @@ function Home() {
            
                <div className="home_row">
                   <Product
+                       id="001"
                       tittle="boAt Rockerz 450
                        Wireless Bluetooth Headphones 
                        with Mic "
@@ -17,6 +18,7 @@ function Home() {
                       rating={4}
                   />  
                    <Product
+                      id="002"
                       tittle="Samsung Galaxy M31s 2021 Edition"
                       price={1996.27}
                       image="https://m.media-amazon.com/images/I/61d-phh4GfL._SL1500_.jpg"
@@ -26,6 +28,7 @@ function Home() {
                </div>
                <div className="home_row">
                <Product
+                      id= "003"
                       tittle="Head phone"
                       price={1996.27}
                       image="https://m.media-amazon.com/images/I/71fD5J6r3NS._AC_UL480_FMwebp_QL65_.jpg"
@@ -33,6 +36,7 @@ function Home() {
                   />  
                                 
                   <Product
+                     id= "004"
                       tittle="Peter England
                         blue formal Shirt"
                       price={1999}
@@ -41,6 +45,7 @@ function Home() {
                   />  
                                  
                   <Product
+                      id= "005"   
                       tittle="Royal Enfield
                        Universal Fit X Levis Granite Jeans"
                       price={5599}
@@ -51,6 +56,7 @@ function Home() {
                </div>
               <div className="home_row">
               <Product
+                     id= "006"
                       tittle="OnePlus 108 cm (43 inches)
                        Y Series Full HD LED Smart Android TV 
                        43Y1 (Black) (2020 Model)"
