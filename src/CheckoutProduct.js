@@ -24,7 +24,7 @@ const CheckoutProduct = (product) => {
                  <p className="checkouProduct_product_title">
                        {product.tittle}</p>
                  <p className="checkouProduct_product_price">
-                        <small>#</small>
+                        <small>₹</small>
                         <strong>{product.price}</strong>
                   </p>
                   <div className="checkouProduct_product_rating">

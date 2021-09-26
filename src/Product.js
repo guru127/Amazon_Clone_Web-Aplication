@@ -4,7 +4,7 @@ import { useStateValue } from './StateProvider';
 
 const Product = ({ id, tittle, price, image, rating}) => {
     const [{cart}, dispatch] = useStateValue();
-    console.log(" cart items  "+ cart);
+   // console.log(" cart items  "+ cart);
 
     const addToCart = () => {
         // dispacth item into the to data layer
@@ -25,7 +25,7 @@ const Product = ({ id, tittle, price, image, rating}) => {
            <div className="product_info">
                <p>{tittle}</p>
                <p className="product_price">
-                   <small>$</small>
+                   <small>₹</small>
                    <strong>{price}</strong>
                </p>
            <div className="product_rating">

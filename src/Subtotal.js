@@ -30,7 +30,7 @@ const Subtotal = () => {
                 value= {getCartTotal(cart)}                
                 displayType={"text"}
                 thousandSeparator={true}
-                prefix={" # "}
+                prefix={" ₹ "}
             />
             <button >Proceed to Checkout</button>
         </div>
