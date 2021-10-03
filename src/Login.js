@@ -14,9 +14,9 @@ const Login = () => {
 
      auth
          .signInWithEmailAndPassword( email, password)
-                // creats user with the Email and password
+                // ..^..creats user with the Email and password
          .then((auth) => {
-                history.push('/')                 
+                history.push('/') // goes back to home page                
          })
          .catch( error => alert(error.message))
     
@@ -28,14 +28,13 @@ const Login = () => {
                  .createUserWithEmailAndPassword( email, password)
                         // creats user with the Email and password
                  .then((auth) =>{
-                     console.log(auth);
+                  //   console.log(auth);
                      if(auth){
                           history.push('/')
                      }                     
                  })
                  .catch( error => alert(error.message))
-                        
-     }
+      }
 
     return (
         <div className="Login">
@@ -65,9 +64,9 @@ const Login = () => {
                        > Sign In</button>
                 </form>
                 <p>
-                    by signin gin you agree to amazon_clones 
+                    by signing in you agree to amazon_clones 
                     Conditions of Use & Sale. please see our
-                    privecy poli
+                    privecy policy
                 </p> 
 
                 <button

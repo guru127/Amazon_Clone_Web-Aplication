@@ -9,7 +9,7 @@ export const getCartTotal = (cart)=>{
                amount +=element.price;         
      });
      return amount;
-    };
+ };
 
 
 const reducer = (state, action) =>{
@@ -38,9 +38,10 @@ const reducer = (state, action) =>{
                 newCart.splice(index, 1);
             }else{
                 console.warn(
-                '   cart dont have this item'
+                'cart dont have this item'
                 )
-            } return{
+            } 
+            return{
                 ...state,
                 cart: newCart
             }

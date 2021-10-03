@@ -15,7 +15,6 @@ function Header() {
           auth.signOut();
         }
     }
-     
     return (
         <div className= "header">
             <Link to="/">
@@ -33,10 +32,10 @@ function Header() {
               <Link to={!user && "/Login"}>
                <div className="header_option" onClick={handleAuthentication}>
                    <span className ="header_optionLineOne">
-                       Hello Geust
+                       Hello {user? user.email.substring(0, user.email.indexOf('@')) :"Geust"}
                    </span>
                    <span className ="header_optionLinetwo">
-                   {user? "Sign Out" : 'Sign In'}
+                    {user? "Sign Out" : 'Sign In'}
                    </span>
                </div>
                </Link>

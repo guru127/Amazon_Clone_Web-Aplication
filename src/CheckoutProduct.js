@@ -9,7 +9,6 @@ const CheckoutProduct = (product) => {
 
      const removeFormCart=()=>{
             dispatch({
-                
                 type: 'REMOVE_FROM_CART',
                 id: product.id
             })

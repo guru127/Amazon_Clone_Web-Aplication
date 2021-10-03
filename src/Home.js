@@ -5,16 +5,15 @@ function Home() {
     return (
         <div className="home">
            <div className="home_container" >
-               <img src="https://www.technodecks.com/wp-content/uploads/2021/06/Wallpaper_com.amazon.avod_.thirdpartyclient.jpg"  alt="image"  className="home_image" />
+               <img src="https://m.media-amazon.com/images/I/71g6GkQj38L._SX3000_.jpg"
+                 alt="image"  className="home_image" />
            
                <div className="home_row">
                   <Product
                        id="001"
-                      tittle="boAt Rockerz 450
-                       Wireless Bluetooth Headphones 
-                       with Mic "
+                      tittle="boAt Rockerz 450 Wireless Bluetooth Headphone with Up to 15H Playback. "
                       price={999}
-                      image="https://m.media-amazon.com/images/I/51xxA+6E+xL._AC_UY327_FMwebp_QL65_.jpg"
+                      image="https://m.media-amazon.com/images/I/61IN9K+dIcL._AC_UY327_FMwebp_QL65_.jpg"
                       rating={4}
                   />  
                    <Product
@@ -29,7 +28,7 @@ function Home() {
                <div className="home_row">
                <Product
                       id= "003"
-                      tittle="Head phone"
+                      tittle="Nike Men's Revolution Running Shoes"
                       price={1996.27}
                       image="https://m.media-amazon.com/images/I/71fD5J6r3NS._AC_UL480_FMwebp_QL65_.jpg"
                       rating={4}
@@ -37,10 +36,9 @@ function Home() {
                                 
                   <Product
                      id= "004"
-                      tittle="Peter England
-                        blue formal Shirt"
+                      tittle="Peter England Men Coat Jacket Winter Stylish Autumn and Winter Casual Solid"
                       price={1999}
-                      image="https://m.media-amazon.com/images/I/91VoXe0sOvL._AC_UL480_FMwebp_QL65_.jpg"
+                      image="https://m.media-amazon.com/images/I/71OwcH9pCqL._AC_UL480_FMwebp_QL65_.jpg"
                       rating={4}
                   />  
                                  
