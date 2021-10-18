@@ -1,13 +1,13 @@
 import './App.css';
-import Header from './Header';
+import Header from './Componets/Header';
 import Home from './Home'; 
 import{BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Checkout from './Checkout';
-import Login from './Login';
+import Checkout from './Componets/Checkout';
+import Login from './Componets/Login';
 import { useEffect } from 'react';
 import { auth} from "./firebase";
 import { useStateValue } from './StateProvider';
-import Payment from './Payment';
+import Payment from './Componets/Payment';
 
 
 

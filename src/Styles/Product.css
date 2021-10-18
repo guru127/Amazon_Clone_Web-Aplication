@@ -17,6 +17,10 @@
   object-fit: contain;
   margin-bottom: 15px;
 }
+.product :hover {
+  margin: 0px;
+  padding: 0px;
+}
 .product_info {
   height: 100px;
   margin-bottom: 15px;

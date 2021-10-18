@@ -1,7 +1,7 @@
 import React from 'react'
 import CheckoutProduct from './CheckoutProduct';
-import "./Payment.css"
-import {useStateValue} from "./StateProvider";
+import "./../Styles/Payment.css"
+import {useStateValue} from "../StateProvider";
 import { Link, useHistory } from 'react-router-dom';
 
 

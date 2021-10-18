@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import Product from './Product';
+import Product from './Componets/Product';
 function Home() {
     return (
         <div className="home">
@@ -30,7 +30,7 @@ function Home() {
                       id= "003"
                       tittle="Nike Men's Revolution Running Shoes"
                       price={1996.27}
-                      image="https://m.media-amazon.com/images/I/71fD5J6r3NS._AC_UL480_FMwebp_QL65_.jpg"
+                      image="https://rukminim1.flixcart.com/image/781/937/ke8uv0w0-0/shoe/o/i/e/bq3204-402-7-nike-obsidian-mist-laser-crimson-original-imafuyy2ywtfs3ry.jpeg?q=50"
                       rating={4}
                   />  
                                 
