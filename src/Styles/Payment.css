@@ -21,10 +21,13 @@
   flex: 0.2;
 }
 .payment_address,
-.payment_items {
+.payment_items,
+.payment_details {
   flex: 0.8;
 }
 .payment_items {
 }
 .payment_details {
+}
+.payment_price_container {
 }

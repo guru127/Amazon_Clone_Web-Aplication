@@ -35,6 +35,9 @@
   border-color: black;
   color: black;
 }
+.product > button :hover {
+  margin-top: 0px;
+}
 .product_rating {
   display: flex;
 }

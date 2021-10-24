@@ -1,11 +1,12 @@
 import React from 'react'
-import './Home.css';
-import Product from './Componets/Product';
+import './../Styles/Home.css';
+import Product from './Product';
 function Home() {
     return (
         <div className="home">
            <div className="home_container" >
-               <img src="https://m.media-amazon.com/images/I/71g6GkQj38L._SX3000_.jpg"
+               <img  src="https://m.media-amazon.com/images/I/71g6GkQj38L._SX3000_.jpg"
+                // src=".Images/AmazonWallpaper.png"
                  alt="image"  className="home_image" />
            
                <div className="home_row">
